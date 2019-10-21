@@ -1,0 +1,49 @@
+	body{
+		font-family:arial;
+		color:white;}
+	header,footer{
+		text-align:center;
+		background-color:hsla(220,100%,15%,100%);}
+	nav{
+		text-align:center;}
+	p{
+		margin-top:20px;} 
+	i{ 
+		color:hsla(190,100%,40%,1);}
+	footer div{
+		margin-top:1em;}
+	a:link,a:visited {
+		background-color: transparent;
+		text-decoration: none;}
+	a:hover{
+		color: hsla(220,100%,30%,100%);
+		text-decoration: none;}
+	.row img:hover{
+		cursor:pointer;
+		box-shadow:2px 2px 7px #111111;}
+	.close:hover{
+		cursor:pointer;
+		color:white;
+		text-shadow:2px 2px 7px #111111;}
+	.close{
+		position:absolute; top:4px; right:16px;
+		color:black;
+		text-shadow:2px 2px 1px white;}
+	/*add animation*/
+	.modal-content{
+		-webkit-animation-name: zoom;
+		-webkit-animation-duration: 1.7s;
+		animation-name: zoom;
+		animation-duration: 1.7s;}
+			
+	@-webkit-keyframes zoom {
+		from {-webkit-transform:scale(0)} 
+			to {-webkit-transform:scale(1)}}
+	@keyframes zoom {
+		from {transform:scale(0)} 
+		to {transform:scale(1)}}
+	/*animation end*/
+	.modal-content img{
+		width:100%;}
+	.modal-content>div{
+		position:relative;}

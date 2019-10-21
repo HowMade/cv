@@ -1,0 +1,26 @@
+	body{
+		font-family:arial;
+		color:hsla(220,100%,15%,100%);}	
+	footer{
+		color:white;
+		text-align:center;
+		background-color:hsla(220,100%,15%,100%);}
+	p{
+		margin-top:20px;}	
+	i,h6{
+		color:hsla(190,100%,40%,1);}
+	kbd,.progress-bar{
+		background-color:hsla(190,100%,40%,1);}
+	.withLink:hover{
+		box-shadow:2px 2px 7px #111111;
+		text-decoration: underline;}
+	.myBackGround{
+				background-color:hsla(270,0%,80%,0.2);}
+	footer  div{
+		margin-top:1em;}
+	a:link,a:visited {
+		color:hsla(220,100%,15%,100%);
+		text-decoration: none;}
+	a:hover,#icon:hover {
+		color: hsla(220,100%,15%,50%);
+		text-decoration: none;}
